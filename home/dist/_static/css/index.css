@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.slider_b{width: 100%; position: relative;}
+.view-port{ width: 100%;height:359px;overflow: hidden; position: relative;}
+.out-wrap{font-size: 0; width: 2880px; position: absolute;left: 0;}		
+.inner-wrap{width: 1440px; display: inline-block; overflow: hidden; line-height: 100%;}
+.clip-img{ width: 100%;position: relative; overflow: hidden;}
+.align-center{position: absolute;left: -200%;right: -200%; text-align: center;}
+
+.ctrl{ width: 100px; height: 100%; z-index: 1; position: absolute;top: 0;}
+.ctrlRight{right: 0; }
+.ctrl a{position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
+.ctrl i{position: absolute;top: 50%;width: 0px;height: 0px;margin-top:-25px; overflow: hidden; text-indent: -20em;}
+.icon_left{left: 50%; border: 25px solid transparent; border-right-color:rgba(255,255,255,0.5); }
+.icon_right{right: 50%;border: 25px solid transparent; border-left-color:rgba(255,255,255,0.5); }	
+
+.navPage{position: absolute; bottom: 0; z-index: 2; text-align:center; width: 100%;}
+.navPage a{ width: 10px;height: 10px; text-indent: -20em; cursor: pointer;
+	background-color: rgba(255,255,255,0.7); display: inline-block; margin: 0 5px; border-radius: 10px; overflow: hidden;}
+.navPage .active{background-color: rgba(0,0,0,0.7);}
+
+
+/*
+ * @author: liangkeno
+ * @time: 2016-7-29
+*/
+
+body{max-width: 100%;min-width: 100%;}

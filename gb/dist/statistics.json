@@ -1,0 +1,21 @@
+{
+  "optimize": {
+    "img": {},
+    "css": {
+      "gb.css": {
+        "originalSize": 2187,
+        "optimizedSize": 1589,
+        "saved": 598,
+        "percent": 27.343392775491544
+      }
+    },
+    "js": {
+      "gb.js": {
+        "originalSize": 1362,
+        "optimizedSize": 541,
+        "saved": 821,
+        "percent": 60.27900146842878
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "dependency": {
+    "gb.html": []
+  },
+  "include": {
+    "gb.html": {
+      "css": [
+        {
+          "name": "gb.css",
+          "module": "gb",
+          "images": []
+        }
+      ],
+      "js": [
+        {
+          "name": "gb.js",
+          "module": "gb",
+          "images": []
+        }
+      ],
+      "images": []
+    }
+  },
+  "rev": {
+    "js": {
+      "js/gb.js": "js/gb.min_f13af6b3.js"
+    },
+    "css": {
+      "css/gb.css": "css/gb.min_e6b5cc91.css"
+    },
+    "img": {}
+  }
+}

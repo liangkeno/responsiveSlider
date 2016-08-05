@@ -1,0 +1,56 @@
+{
+  "dependency": {
+    "index.html": [
+      {
+        "widgetName": "slider",
+        "module": "home",
+        "moduleId": "91ffa160-54b2-11e6-939a-37d29597a4fe",
+        "exists": true
+      }
+    ]
+  },
+  "include": {
+    "index.html": {
+      "css": [
+        {
+          "name": "gb.css",
+          "module": "gb"
+        },
+        {
+          "name": "index.css",
+          "module": "home",
+          "images": []
+        }
+      ],
+      "js": [
+        {
+          "name": "gb.js",
+          "module": "gb"
+        },
+        {
+          "name": "index.js",
+          "module": "home",
+          "images": []
+        }
+      ],
+      "images": [
+        {
+          "res": "images/index_banner_01.jpg ",
+          "module": "home"
+        },
+        {
+          "res": "images/index_banner_02.jpg ",
+          "module": "home"
+        },
+        {
+          "res": "images/index_banner_03.jpg ",
+          "module": "home"
+        },
+        {
+          "res": "images/index_banner_04.jpg ",
+          "module": "home"
+        }
+      ]
+    }
+  }
+}
